@@ -1,0 +1,77 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fim */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgb(19, 106, 206),rgba(20, 132, 223, 0.986));
+}
+
+span {
+    font-weight: bold;
+    display: contents;
+}
+
+header {
+    margin-bottom: 32px;
+}
+
+
+header img {
+    border-radius: 100%;
+    width: 152px;
+    height: 152px;
+    object-fit: cover;
+}
+
+header h3 {
+    margin-top: 16px;
+    color: #fff;
+}
+
+section a {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 92px 22px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+    color: #fff;
+    transition: ease-out 0.5s;
+}
+
+
+section a:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.40);
+}
+
+
+footer p {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+}
+
+footer a:link {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+footer a:visited {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+footer a:active {
+    color: rgba(255, 255, 255, 0.40);
+}
